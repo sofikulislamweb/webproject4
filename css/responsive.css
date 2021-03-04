@@ -1,0 +1,431 @@
+@media(min-width: 320px) and (max-width: 575px) {
+
+    /* nav bar css start */
+    nav {
+        top: 0;
+        padding: 8px 0 !important;
+    }
+
+    nav .navbar-brand {
+        background: transparent;
+        width: auto;
+        height: auto;
+        border: 0;
+        line-height: 0;
+        position: static;
+    }
+
+
+    nav .navbar-brand img {
+        width: 85%;
+    }
+
+    nav ul {
+        background: #444444;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin-left: 0;
+    }
+    
+    .fixed .navbar-brand {
+        background: transparent !important;
+        width: auto;
+        height: auto;
+        border: 0;
+        line-height: 0;
+        position: static;
+    }
+
+    /* nav bar css end */
+
+    /* banner css start */
+    #banner-part .banner .overlay{
+        padding-bottom: 70px;
+        padding-top: 100px;
+    }
+
+    #banner-part .banner .overlay .text {
+        text-align: center;
+        width: auto;
+    }
+
+    #banner-part .banner .overlay h3 {
+        font-size: 25px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 50px;
+        margin: 11px 0;
+    }
+    #banner-part .banner .overlay p {
+        width: auto;
+    }
+
+    #banner-part .banner .overlay h3::before {
+        display: none;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        display: none;
+    }
+
+    #banner-part .banner .overlay h1::before {
+        display: none;
+    }
+
+    #banner-part .banner .overlay h1::after {
+        display: none;
+    }
+
+    #banner-part .banner .overlay p::before {
+        display: none;
+    }
+
+    #banner-part .banner .overlay p::after {
+        display: none;
+    }
+
+    /* banner css end */
+
+
+    /* about part css start */
+    #about-part .title{
+        margin-top: 30px;
+    }
+
+    #about-part .text p{
+        width: auto;
+    }
+
+    /* about part css end */
+
+    /* team part css start */
+    #team-part .team .members .text {
+        border:1px solid #dddddd;
+    }
+    #team-part .team .members .img .overlay{
+        transform: scale(.93);
+    }
+
+    #team-part .team .members .text p{
+        visibility: visible;
+        opacity: 1;
+    }
+    #team-part .team .members:hover .img {
+        margin-top: 70px
+    }
+  
+
+
+          /* team part css end */
+
+
+
+ /* counter part css start */
+    .col-xs-6{
+    width: 50%;
+    float: left;
+    }
+
+    #counter-part .counters .overlay .text{
+        text-align: center;
+        margin: 0;
+    }
+ 
+ /* counter part css end */
+
+
+
+/* class part css start */
+.colorful-tab-wrapper{
+    padding: 0;
+}
+
+.colorful-tab-menu {
+    flex-direction: row;
+}
+#class-part .colorful-tab-menu li{
+    padding: 0 50px;
+}
+.colorful-tab-menu-item.active a{
+    background: transparent;
+}
+
+#class-part .colorful-tab-content ul li{
+    width: 48%;
+}
+
+/* class part css end */
+
+
+
+
+ /* slider part css start */
+
+ #slider-part img{
+     margin-left: 8px !important;
+     width: auto;
+ }
+
+/* slider part css end */
+
+
+
+/* btopo part css start */
+.btop{
+    bottom: 30px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+/* btopo part css end */
+
+/* fixer part img css start */
+#footer-part .overlay .flikerimg img {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* fixer part img css end */
+}
+
+
+@media(min-width: 576px) and (max-width: 767px){
+
+    /* nav bar css start */
+    nav{
+        top:0;
+        padding: 8px 0 !important;
+    }
+    nav .navbar-brand {
+        padding: 0;
+        position: static;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        background: transparent;
+        transform: skewX(-35deg);
+        border: 0;
+    }
+    nav ul {
+        background: #444444;
+        text-align: center;
+    }
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    .fixed .navbar-brand {
+        background: transparent !important;
+        width: auto;
+        height: auto;
+        border: 0;
+        line-height: 0;
+        position: static;
+    }
+/* nab bar css end */
+
+
+/* banner part css start */
+
+#banner-part .banner .overlay{
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+
+#banner-part .banner .overlay .text {
+    text-align: center;
+    width: auto;
+}
+
+#banner-part .banner .overlay h3 {
+    font-size: 25px;
+}
+
+#banner-part .banner .overlay h1 {
+    font-size: 50px;
+    margin: 11px 0;
+}
+#banner-part .banner .overlay p {
+    width: auto;
+}
+
+#banner-part .banner .overlay h3::before {
+    display: none;
+}
+
+#banner-part .banner .overlay h3::after {
+    display: none;
+}
+
+#banner-part .banner .overlay h1::before {
+    display: none;
+}
+
+#banner-part .banner .overlay h1::after {
+    display: none;
+}
+
+#banner-part .banner .overlay p::before {
+    display: none;
+}
+
+#banner-part .banner .overlay p::after {
+    display: none;
+}
+
+/* banner part css end */
+
+
+   /* about part css start */
+   
+#about-part .title{
+    margin-top: 30px;
+}
+
+#about-part .text p{
+    width: auto;
+}
+
+/* about part css end */
+
+
+/* team part css start */
+#team-part .team .members .text {
+    border:1px solid #dddddd;
+}
+#team-part .team .members .img .overlay{
+    transform: scale(.93);
+}
+
+#team-part .team .members .text p{
+    visibility: visible;
+    opacity: 1;
+}
+#team-part .team .members:hover .img {
+    margin-top: 70px
+}
+
+
+
+      /* team part css end */
+
+/* counter part css start */
+
+      #counter-part .counters .overlay .text{
+        text-align: center;
+        margin: 0;
+    }
+    #class-part .colorful-tab-content ul{
+        text-align: center;
+    }
+    #class-part .colorful-tab-content ul li{
+        width: auto;
+    }
+
+/* counter part css start */
+
+.colorful-tab-wrapper{
+    padding: 0;
+}
+
+.colorful-tab-menu {
+    flex-direction: row;
+}
+#class-part .colorful-tab-menu li{
+    padding: 0 50px;
+}
+.colorful-tab-menu-item.active a{
+    background: transparent;
+}
+
+#class-part .colorful-tab-content ul li{
+    width: 48%;
+}
+
+/* class part css end */
+
+
+ /* slider part css start */
+
+ #slider-part img{
+    margin-left: 8px !important;
+    width: auto;
+}
+
+/* slider part css end */
+
+
+
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+    /* nav bar css start */
+    nav{
+        top:0;
+        padding: 8px 0 !important;
+    }
+    nav .navbar-brand {
+        padding: 0;
+        position: static;
+        width: auto;
+        height: auto;
+        line-height: 0;
+        background: transparent;
+        transform: skewX(-35deg);
+        border: 0;
+    }
+    nav ul {
+        background: #444444;
+        text-align: center;
+    }
+    nav ul li a {
+        margin-left: 0;
+    }
+
+    .fixed .navbar-brand {
+        background: transparent !important;
+        width: auto;
+        height: auto;
+        border: 0;
+        line-height: 0;
+        position: static;
+    }
+/* nab bar css end */
+
+/* counter part css start */
+
+#class-part .colorful-tab-content ul li{
+    width: 19%;
+}
+
+#class-part .colorful-tab-content ul li{
+    font-size: 14px;
+    padding: 10px 0;
+}
+/* counter part css end */
+
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+    /* about part css start */
+
+    #about-part .text p{
+        width: auto;
+    }
+    /* about part css end */
+}
+
+
+
+
+
+
+
+
